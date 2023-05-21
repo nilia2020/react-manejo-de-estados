@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "eslint src/ --fix"
   },
   "dependencies": {
     "@types/node": "20.1.7",
@@ -15,6 +16,7 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
+    "eslint-plugin-react-hooks": "^5.0.0-canary-5309f1028-20230517",
     "next": "13.4.2",
     "postcss": "8.4.23",
     "react": "18.2.0",
